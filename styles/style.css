@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Declaração de variáveis no CSS*/
+/*Variáveis globais*/
+
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+}
+
+body {
+    /*height: 100vh;*/ 
+    box-sizing: border-box;
+    background: var(--cor-primaria);
+    color:var(--cor-secundaria);
+}
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.cabeçalho{
+    padding: 2% 0% 0% 10%;
+}
+
+.cabeçalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabeçalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.apresentacao {
+    /*margin: 10% 15%;*/
+    padding: 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.apresentacao__conteudo {
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: 'Krome One', 'Sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao__links__link{
+    /*background-color: #22D4FD;*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+    font-
+}
+
+.apresentacao__links__link:hover {
+    cursor: pointer;
+    background-color: var(--cor-hover);
+} 
+
+.meu__nome:hover{
+    color: var(--cor-terciaria);
+}
+
+.rodape{
+    padding: 24px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
